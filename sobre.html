@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site Institucional</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link rel="icon" href="https://cursos.dankicode.com/app/Views/public/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+	<section class="topo">
+		<div class="center">
+			<nav>
+			<header>
+				<div class="logo"><img src="images/logo.png" /></div><!--logo-->
+			</header>
+	
+			<ul class="nav-links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+						
+		<div class="burger">
+			<div class="linha1"></div>
+			<div class="linha2"></div>
+			<div class="linha3"></div>
+		</div>
+		</nav>
+	</div><!--center-->
+	</section><!--topo-->
+	
+	<section class="sobre-equipe">
+				<div class="center">
+				<div class="w50 sobre-equipe-texto">
+					<h2>Uma equipe estratégica para um trabalho incrível</h2>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+				</div>
+
+				<div class="w50">
+					<img src="images/equipe2.png">
+				</div>
+			<div class="clear"></div>
+			</div><!--center-->
+			</section>
+
+			<section class="sobre-imagens">
+				<div class="center">
+					<div class="img-sobre">
+						<img src="images/foto-1.png">
+					</div><!--img-sobre-->
+
+					<div class="img-sobre">
+						<img src="images/foto-1.png">
+					</div><!--img-sobre-->
+
+					<div class="img-sobre">
+						<img src="images/foto-1.png">
+					</div><!--img-sobre-->
+
+					<div class="img-sobre">
+						<img src="images/foto-1.png">
+					</div><!--img-sobre-->
+				</div><!--center-->
+			</section>
+
+			<footer>
+	<section class="metodologia">
+		<div class="center">
+			<h2>Conheça nossa Metodologia</h2>
+			<p>O que acha de fazermos o que mais gostamos de fazer? Conversar!<br />Entre em contato por e-mail ou telefone.</p>
+			<a href="/contato">Entrar Contato</a>
+		</div>
+	</section>
+		<div class="center">
+			<div class="col-footer">
+				<h2>Suporte</h2>
+				<a href="">Contato</a>
+				<a href="">FAQ</a>
+			</div>
+			<div class="col-footer">
+				<h2>Suporte</h2>
+				<a href="">Contato</a>
+				<a href="">FAQ</a>
+			</div>
+			<div class="col-footer">
+				<h2>Suporte</h2>
+				<a href="">Contato</a>
+				<a href="">FAQ</a>
+			</div>
+			<div style="width: 40%;text-align: right;" class="col-footer">
+				<img src="images/logo-footer.png" />
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+			<script src="js/jquery.js"></script>
+			<script src="js/slick.min.js"></script>
+			<script type="text/javascript">
+				$('section.clientes-slider .slider-container').slick({
+			dots: true,
+			arrows:false,
+		    infinite: false,
+		    speed:1000,
+		    slidesToShow: 4,
+		    autoplay: true,
+		    centerMode:false,
+		    autoplaySpeed: 3000,
+		    pauseOnHover:false,
+		    responsive: 
+		    [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 2
+		      }
+		    }
+		    ]
+		});
+
+		$('section.depoimentos .depoimentos-box').slick({
+			dots: true,
+			arrows:false,
+		    infinite: true,
+		    speed:1000,
+		    slidesToShow: 1,
+		    centerMode:false
+		});
+	</script>
+	<script src="js/hamburger.js"></script>
+</body>
+</html>	
